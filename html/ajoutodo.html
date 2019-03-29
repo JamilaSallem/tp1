@@ -2,18 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Connexion</title>
+        <title>Ajout To Do</title>
+        <link rel="stylesheet" href="../CSS/style.css">
         <link rel="stylesheet" href="../CSS/bootstrap.min.css"> 
     </head>
     <body>
-        <img src="../images/logo.jpg" width="150" alt="This is a logo"/><br>
-        <button>Se deconnecter</button><br><br>
-        <button>Accueil</button><br><br>
-        <h4>Description</h4>
+        <img src="../images/logo.jpg" width="150" alt="This is a logo" class="img-thumbnail"><br><br>
+        <div class="btn-group" role="group" aria-label="BtnGrp1">
+            <button type="button" class="btn btn-secondary">Se Déconnecter</button>
+            <button type="button" class="btn btn-secondary">Accueil</button>
+        </div><br><br>
+        <h4 class="text-primary">Description</h4>
         <form>
-            <input type="text"/><br><br>
-            <input type="submit" vamue="Ajouter"/>
-            <input type="reset" value="Effacer"/>
+            <input type="text" class="form-control"><br><br>
+            <button type="submit" class="btn btn-primary">Ajouter</button>
+            <button type="reset" class="btn btn-primary">Effacer</button>
         </form>
     </body>
 </html>
