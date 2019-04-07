@@ -9,13 +9,13 @@
     <body>
         <img src="../images/logo.jpg" width="150" alt="This is a logo" class="img-thumbnail"><br><br>
         <div class="btn-group" role="group" aria-label="BtnGrp1">
-            <button type="button" class="btn btn-secondary">Se Déconnecter</button>
-            <button type="button" class="btn btn-secondary">Accueil</button>
+            <button type="button" class="btn btn-secondary" onclick="self.location.href='connexion.html'">Se Déconnecter</button>
+            <button type="button" class="btn btn-secondary" onclick="self.location.href='home.html'">Accueil</button>
         </div><br><br>
         <h4 class="text-primary">Description</h4>
         <form method="GET" action="../php/ajoutodo.php">
             <input type="text" name="description" class="form-control"><br><br>
-            <button type="submit" class="btn btn-primary">Ajouter</button>
+            <button type="submit" class="btn btn-primary" onclick="self.location.href='home.html'">Ajouter</button>
             <button type="reset" class="btn btn-primary">Effacer</button>
         </form>
     </body>
