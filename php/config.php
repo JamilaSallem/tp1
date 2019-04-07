@@ -2,7 +2,7 @@
 function connect()
 {
     $server="localhost";
-    $base="isg";
+    $base="tp1_db";
     $username="root";
     $pass="";
     try{
